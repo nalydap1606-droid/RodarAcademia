@@ -1,5 +1,5 @@
 import React from 'react';
-// Importa el logo desde tu carpeta de assets
+import logo from '../../assets/logo-rodar.png';
 // import logo from '../assets/logo-rodar.png'; 
 
 export default function Navbar() {
@@ -16,9 +16,8 @@ export default function Navbar() {
 
             {/* 1. LOGO - Izquierda */}
             <div className="flex items-center space-x-2">
-                <div className="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center overflow-hidden border-2 border-blue-400">
-                    {/* <img src={logo} alt="Rodar Logo" className="w-full h-full object-cover" /> */}
-                    <span className="text-[8px] text-white font-bold text-center leading-tight">RODAR ACADEMIA</span>
+                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center overflow-hidden">
+                    <img src={logo} alt="Rodar Logo" className="w-full h-full object-cover" />
                 </div>
             </div>
 
@@ -26,7 +25,7 @@ export default function Navbar() {
             <div className="hidden md:flex bg-white border border-gray-300 rounded-full px-1 py-1 shadow-sm items-center">
                 <ul className="flex items-center h-full"> {/* h-full asegura que usen todo el alto disponible */}
                     {navLinks.map((link) => (
-                        <li key={link.name} className="flex items-center">
+                        <li key={link.name} className="flex items-center font-Enlaces font-bold">
                             <a
                                 href={`#${link.name.toLowerCase()}`}
                                 className={`px-6 py-1.5 rounded-full text-sm font-medium transition-all flex items-center justify-center ${link.active
