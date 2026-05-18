@@ -4,7 +4,7 @@ import heroSkaters from '../../assets/hero-skaters.png'; // Asegúrate de que es
 
 export const Hero = () => {
   return (
-    <section className="relative w-full min-h-[600px] flex items-center bg-[#FDFBF7] overflow-hidden px-10 md:px-20">
+    <section className="relative w-full min-h-150 flex items-center bg-[#FFFBF4] overflow-hidden px-10 md:px-20">
       
       {/* Contenedor de Texto y Formas */}
       <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col items-start">
@@ -28,7 +28,7 @@ export const Hero = () => {
             </button>
             
             {/* Divisor vertical */}
-            <div className="h-8 w-[1px] bg-white/40 mx-8"></div>
+            <div className="h-8 w-px bg-white/40 mx-8"></div>
             
             <button className="text-white font-Enlaces font-bold text-sm uppercase tracking-wider hover:opacity-80 transition-opacity cursor-pointer">
               Inscríbete

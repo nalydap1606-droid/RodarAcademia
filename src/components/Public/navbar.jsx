@@ -12,7 +12,7 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="w-full py-4 px-8 flex items-center justify-between bg-white sticky top-0 z-50 shadow-sm">
+        <nav className="w-full py-4 px-8 flex items-center justify-between bg-[#FFFBF4] sticky top-0 z-50 shadow-sm">
 
             {/* 1. LOGO - Izquierda */}
             <div className="flex items-center space-x-2">
@@ -45,7 +45,7 @@ export default function Navbar() {
                 <button className="text-sm font-semibold text-gray-800 hover:text-blue-500 transition">
                     Iniciar Sesión
                 </button>
-                <div className="h-8 w-[1px] bg-gray-300"></div> {/* Línea divisoria */}
+                <div className="h-8 w-px bg-gray-300"></div> {/* Línea divisoria */}
                 <button className="text-sm font-semibold text-gray-800 hover:text-blue-500 transition">
                     Inscríbete
                 </button>
