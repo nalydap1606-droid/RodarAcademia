@@ -40,7 +40,7 @@ export default function SeccionEventos() {
   const [eventoSeleccionado, setEventoSeleccionado] = useState(EVENTOS_MOCK[0]);
 
   return (
-    <section className="w-full max-w-6xl md:my-8 mx-auto px-4 py-12 bg-[#FFFBF4] rounded-md shadow-md">
+    <section className="w-full max-w-6xl md:my-8 mx-auto px-4 py-12 bg-[#FFFBF4] rounded-md">
       {/* Título de la sección */}
       <h2 className="text-4xl font-Title1 text-center text-[#25C2F6] mb-12 uppercase tracking-wide">
         Eventos
