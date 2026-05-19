@@ -1,11 +1,17 @@
-import Public from "./pages/Public";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Public from './pages/Public';
+import Login from './pages/Login';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <Public />
-    </div>
+    <Router>
+      <Routes>
+        {/* Ruta principal para la landing de la academia */}
+        <Route path="/" element={<Public />} />
+        
+        {/* Ruta para el login */}
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;

@@ -4,7 +4,7 @@ import heroSkaters from '../../assets/hero-skaters.png'; // Asegúrate de que es
 
 export const Hero = () => {
   return (
-    <section className="relative w-full min-h-150 flex items-center bg-[#FFFBF4] overflow-hidden px-10 md:px-20">
+    <section className="relative w-full min-h-150 flex items-center bg-[#FFFBF4] overflow-hidden px-10 md:px-20" id='inicio'>
       
       {/* Contenedor de Texto y Formas */}
       <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col items-start">

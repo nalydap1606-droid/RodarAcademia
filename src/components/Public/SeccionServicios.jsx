@@ -26,7 +26,7 @@ export default function SeccionServicios() {
   ];
 
   return (
-    <section className="bg-[#FAF6F0] py-16 px-4 min-h-screen flex flex-col items-center justify-center">
+    <section className="bg-[#FAF6F0] py-16 px-4 min-h-screen flex flex-col items-center justify-center" id='servicios'>
       {/* Título Principal */}
       <h2 className="text-5xl md:text-6xl font-Title1 text-[#25B4FF] text-center mb-12 tracking-wide">
         Servicios
